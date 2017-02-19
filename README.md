@@ -8,7 +8,7 @@
 - MongoDB and Mongoose are used for the database.
 - The project contains React-Bootstrap for styling and grid layouts.
 
-#### Setup
+### Setup
 1. Clone repo
 
 `git clone https://github.com/bhefty/react-boilerplate-fullstack.git $APP_NAME`
@@ -21,7 +21,7 @@ cd $APP_NAME
 npm install
 ```
 
-#### Auth0 Setup
+### Auth0 Setup
 1. [Create an account](https://auth0.com/)
 2. Create a new Client and choosing client type Single Page Web Application
 3. Under Allowed Callback URLs add `http://localhost:3000/login/callback` and any other callback URL for the production site.
@@ -29,7 +29,7 @@ npm install
 5. Save Changes
 6. Go to Connections > Social on the left navigation pane to select two (for free) social login methods that can be used with the app.
 7. Within your newly cloned directory, add a `.env` file to the root of the project.
-8. Add the following variables, gathering the information from the Settings page of your Client you created in Auth0. *Note: Prefix variables with REACT_APP_ for easy .env loading from the backbone of create-react-app*
+8. Add the following variables, gathering the information from the Settings page of your Client you created in Auth0. *Note: Prefix variables with `REACT_APP_` for easy `.env` loading from the backbone of create-react-app*
 ```
 REACT_APP_AUTH0_CLIENT_ID='CLIENT_ID_HERE_bisdafli2r4r4532'
 REACT_APP_AUTH0_CLIENT_SECRET='CLIENT_SECRET_HERE_elfi34fl'
