@@ -7,7 +7,7 @@ export default class AuthService extends EventEmitter {
     super()
     this.lock = new Auth0Lock(clientId, domain, options, {
       auth: {
-        redirectUrl: `${location.origin}/login/callback`,
+        redirectUrl: `${location.origin}/login`,
         responseType: 'token'
       }
     })

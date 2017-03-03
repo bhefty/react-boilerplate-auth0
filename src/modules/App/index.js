@@ -11,7 +11,7 @@ import P from './P'
 const App = (props) => {
   return (
     <div>
-      <Navigation />
+      <Navigation auth={props.route.auth} />
       <Wrapper>
         <HeaderDiv>
           <h2>Welcome to React</h2>
@@ -20,8 +20,8 @@ const App = (props) => {
         <P>
           To get started, edit <code>src/modules/App/index.js</code> and save to reload.
         </P>
+        {props.children}
       </Wrapper>
-
     </div>
   );
 }

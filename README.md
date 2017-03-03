@@ -24,8 +24,8 @@ npm install
 ### Auth0 Setup
 1. [Create an account](https://auth0.com/)
 2. Create a new Client and choosing client type Single Page Web Application
-3. Under Allowed Callback URLs add `http://localhost:3000/login/callback` and any other callback URL for the production site.
-4. Under Allows Origins (CORS) add `http://localhost:3000/' and any other production site domain.
+3. Under Allowed Callback URLs add `http://localhost:3000` and any other callback URL for the production site.
+4. Under Allows Origins (CORS) add `http://localhost:3000' and any other production site domain.
 5. Save Changes
 6. Go to Connections > Social on the left navigation pane to select two (for free) social login methods that can be used with the app.
 7. Within your newly cloned directory, add a `.env` file to the root of the project.

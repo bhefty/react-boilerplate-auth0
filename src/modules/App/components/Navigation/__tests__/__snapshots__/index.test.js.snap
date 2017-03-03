@@ -1,0 +1,164 @@
+exports[`Navigation Navigation renders without crashing 1`] = `
+<nav
+  className="navbar navbar-default navbar-static-top">
+  <div
+    className="container">
+    <div
+      className="container">
+      <div
+        className="navbar-header">
+        <a
+          className="navbar-brand"
+          href="/">
+          React App
+        </a>
+        <button
+          className="navbar-toggle collapsed"
+          onClick={[Function]}
+          type="button">
+          <span
+            className="sr-only">
+            Toggle navigation
+          </span>
+          <span
+            className="icon-bar" />
+          <span
+            className="icon-bar" />
+          <span
+            className="icon-bar" />
+        </button>
+      </div>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse">
+        <ul
+          className="nav navbar-nav"
+          role={null}>
+          <li
+            className=""
+            role="presentation"
+            style={undefined}>
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button">
+              Link
+            </a>
+          </li>
+          <li
+            className="dropdown"
+            style={undefined}>
+            <a
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="dropdown-toggle"
+              href="#"
+              id="basic-nav-dropdown"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button">
+              Dropdown
+               
+              <span
+                className="caret" />
+            </a>
+            <ul
+              aria-labelledby="basic-nav-dropdown"
+              className="dropdown-menu"
+              role="menu">
+              <li
+                className=""
+                role="presentation"
+                style={undefined}>
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1">
+                  Action
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+                style={undefined}>
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1">
+                  Another Action
+                </a>
+              </li>
+              <li
+                className=""
+                role="presentation"
+                style={undefined}>
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1">
+                  Something Else
+                </a>
+              </li>
+              <li
+                className="divider"
+                onKeyDown={[Function]}
+                role="separator"
+                style={undefined} />
+              <li
+                className=""
+                role="presentation"
+                style={undefined}>
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="menuitem"
+                  tabIndex="-1">
+                  Separated Link
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul
+          className="nav navbar-nav navbar-right"
+          role={null}>
+          <li
+            className="disabled"
+            role="presentation"
+            style={undefined}>
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              tabIndex={-1}>
+              Hello, user!
+            </a>
+          </li>
+          <li
+            className=""
+            role="presentation"
+            style={undefined}>
+            <a
+              href="login"
+              onClick={[Function]}>
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
